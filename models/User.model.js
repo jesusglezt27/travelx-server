@@ -20,7 +20,6 @@ const userSchema = new Schema(
     },
     image_url:{
       type:String,
-      default:"https://res.cloudinary.com/dhgfid3ej/image/upload/v1558806705/asdsadsa_iysw1l.jpg"
     }
   },
   {

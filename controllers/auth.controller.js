@@ -93,7 +93,7 @@ exports.loginCtrl = async(req,res,next)=>{
         }
 
         /*if para validar el password con el regex
-         const passwordRegex = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}/;
+        const passwordRegex = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}/;
             if (!passwordRegex.test(req.body.password)) {
             res
                 .status(400)
